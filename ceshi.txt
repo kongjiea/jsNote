@@ -1,5 +1,5 @@
-
-<title>众筹宝添能量，土鸡石榴大回赠-财大狮</title>
+﻿
+<title>众筹宝添能量，土鸡石榴大回赠-财大狮-</title>
 
 <style type="text/css">
     body{font-family:Microsoft YaHei,Arial, Helvetica, sans-serif;color:#333;background:#eb3233;min-with:980px;}
@@ -49,7 +49,5 @@
 		<div class="pic12"></div>
 		<div class="pic13"></div>
 	</div> 
-</body>
-</html>
 </body>
 </html>
