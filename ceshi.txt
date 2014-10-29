@@ -1,6 +1,46 @@
-解决中途
-解决中途
-解决中途
-解决中途
-解决中途
-解决中途这里是空的 
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<link href="${imgUrl}/css/base.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${imgUrl}/js/jquery1.7.2.js"></script>
+<title>众筹宝添能量，土鸡石榴大回赠-财大狮</title>
+
+<style type="text/css">
+	body{font-family:Microsoft YaHei,Arial, Helvetica, sans-serif;color:#333;background:#eb3233;min-with:980px;}
+	img{border:none;overflow:hidden;}
+	.pic1{width:100%;height:116px;overflow:hidden;background:url(images/20141029/crowdfund_01.jpg) center no-repeat;}
+	.pic2{width:100%;height:148px;overflow:hidden;background:url(images/20141029/crowdfund_02.jpg) center no-repeat;}
+	.pic3{width:100%;height:164px;overflow:hidden;background:url(images/20141029/crowdfund_03.jpg) center no-repeat;}
+	.pic4{width:100%;height:144px;overflow:hidden;background:url(images/20141029/crowdfund_04.jpg) center no-repeat;}
+	.pic5{width:100%;height:308px;overflow:hidden;background:url(images/20141029/crowdfund_05.jpg) center no-repeat;}
+	.pic6{width:100%;height:279px;overflow:hidden;background:url(images/20141029/crowdfund_06.jpg) center no-repeat;}
+	.pic7{width:100%;height:300px;overflow:hidden;background:url(images/20141029/crowdfund_07.jpg) center no-repeat;}
+	.pic8{width:100%;height:136px;overflow:hidden;background:url(images/20141029/crowdfund_08.jpg) center no-repeat;}
+	.pic9{width:100%;height:248px;overflow:hidden;background:url(images/20141029/crowdfund_09.jpg) center no-repeat;}
+	.pic10{width:100%;height:172px;overflow:hidden;background:url(images/20141029/crowdfund_10.jpg) center no-repeat;}
+</style>
+</head>
+<body>
+<jsp:include page="../../top.jsp"/>
+	<div class="cont_box">
+		<div class="pic1"></div>
+		<div class="pic2"></div>
+		<div class="pic3"></div>
+		<div class="pic4"></div>
+		<div class="pic5"></div>
+		<div class="pic6"></div>
+		<div class="pic7"></div>
+		<div class="pic8"></div>
+		<div class="pic9"></div>
+		<div class="pic10"></div>
+		<div class="pic11"></div>
+		<div class="pic12"></div>
+		<div class="pic13"></div>
+	</div>	
+</body>
+</html>
