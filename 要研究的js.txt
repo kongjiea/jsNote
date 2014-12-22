@@ -1,4 +1,4 @@
-touch2mouse
+﻿touch2mouse
 jquery-tmpl
 jsrender 是下一代的 jQuery 模板，专为高性能的纯字符串渲染而优化，无需 DOM 和其他 jQuery 依赖。
 http://www.iteye.com/news/24827
