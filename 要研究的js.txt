@@ -1,6 +1,4 @@
 touch2mouse
 jquery-tmpl
-jsrender ÊÇÏÂÒ»´úµÄ jQuery Ä£°å£¬×¨Îª¸ßĞÔÄÜµÄ´¿×Ö·û´®äÖÈ¾¶øÓÅ»¯£¬ÎŞĞè DOM ºÍÆäËû jQuery ÒÀÀµ¡£
+jsrender æ˜¯ä¸‹ä¸€ä»£çš„ jQuery æ¨¡æ¿ï¼Œä¸“ä¸ºé«˜æ€§èƒ½çš„çº¯å­—ç¬¦ä¸²æ¸²æŸ“è€Œä¼˜åŒ–ï¼Œæ— éœ€ DOM å’Œå…¶ä»– jQuery ä¾èµ–ã€‚
 http://www.iteye.com/news/24827
-
-sdjfk dfsd
