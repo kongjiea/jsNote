@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body{ background-color: #000; color: #fff;}
+
+        .act-fallWrap {
+            width: 100%;
+            position: fixed;
+            top: -100px;
+            left: 0;
+            z-index: 100000;
+            display: box;
+            display: -webkit-box;
+            pointer-events: none
+        }
+
+        .act-fallWrap i {
+            position: absolute;
+            transform-origin: -20px -30px;
+            -webkit-transform-origin: -20px -30px;
+            -moz-transform-origin: -20px -30px;
+            -o-transform-origin: -20px -30px;
+            -ms-transform-origin: -20px -30px;
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #fff
+        }
+
+        @keyframes falling {
+            0% {
+                transform: translate(0,0) rotate(0deg)
+            }
+
+            100% {
+                transform: translate(100px,1000px) rotate(360deg) scale(1.5)
+            }
+        }
+
+        @-webkit-keyframes falling {
+            0% {
+                -webkit-transform: translate(0,0) rotate(0deg)
+            }
+
+            100% {
+                -webkit-transform: translate(100px,1000px) rotate(360deg) scale(1.5)
+            }
+        }
+
+        @-moz-keyframes falling {
+            0% {
+                -moz-transform: translate(0,0) rotate(0deg)
+            }
+
+            100% {
+                -moz-transform: translate(100px,1000px) rotate(360deg) scale(1.5)
+            }
+        }
+
+        @-o-keyframes falling {
+            0% {
+                -o-transform: translate(0,0) rotate(0deg)
+            }
+
+            100% {
+                -o-transform: translate(100px,1000px) rotate(360deg) scale(1.5)
+            }
+        }
+
+
+    </style>
+</head>
+<body style="background-color: #000;">
+<!--<embed allowscriptaccess="never" flashvars="scene=taobao_shop" height="1000" src="trinity.swf" type="application/x-shockwave-flash" width="475" wmode="transparent"></embed>-->
+
+<div class="act-fallWrap"><i class="fallItem" style="left: 90%; opacity: 0.399019166943617; -webkit-animation: falling 6.6s linear 7.64237480983138s infinite;"></i><i class="fallItem" style="left: 54%; opacity: 0.629592203674838; -webkit-animation: falling 6.6s linear 6.73832332389429s infinite;"></i><i class="fallItem" style="left: 73%; opacity: 0.974462554021738; -webkit-animation: falling 6.6s linear 4.75243048998527s infinite;"></i><i class="fallItem" style="left: 92%; opacity: 0.693399990326725; -webkit-animation: falling 6.6s linear 5.33757237740792s infinite;"></i><i class="fallItem" style="left: 96%; opacity: 0.34616131382063; -webkit-animation: falling 6.6s linear 1.4596128212288s infinite;"></i><i class="fallItem" style="left: 46%; opacity: 0.578365596523508; -webkit-animation: falling 6.6s linear 4.90906968363561s infinite;"></i><i class="fallItem" style="left: 6%; opacity: 0.367487273318693; -webkit-animation: falling 6.6s linear 5.38611428369768s infinite;"></i><i class="fallItem" style="left: 80%; opacity: 0.709112784569152; -webkit-animation: falling 6.6s linear 6.15274981432594s infinite;"></i><i class="fallItem" style="left: 54%; opacity: 0.997157768439501; -webkit-animation: falling 6.6s linear 5.94837598921731s infinite;"></i><i class="fallItem" style="left: 39%; opacity: 0.929950014827773; -webkit-animation: falling 6.6s linear 3.13654205668718s infinite;"></i><i class="fallItem" style="left: 56%; opacity: 0.512631464796141; -webkit-animation: falling 6.6s linear 5.92414602916688s infinite;"></i><i class="fallItem" style="left: 74%; opacity: 0.720846838480793; -webkit-animation: falling 6.6s linear 7.07899986114353s infinite;"></i><i class="fallItem" style="left: 1%; opacity: 0.413651043921709; -webkit-animation: falling 6.6s linear 5.83602419332601s infinite;"></i><i class="fallItem" style="left: 94%; opacity: 0.46855238112621; -webkit-animation: falling 6.6s linear 1.7204452380538s infinite;"></i><i class="fallItem" style="left: 31%; opacity: 0.362760848086327; -webkit-animation: falling 6.6s linear 2.25159088033251s infinite;"></i><i class="fallItem" style="left: 10%; opacity: 0.614068742701784; -webkit-animation: falling 6.6s linear 4.95778170018457s infinite;"></i><i class="fallItem" style="left: 8%; opacity: 0.343335200147703; -webkit-animation: falling 6.6s linear 2.4853863499593s infinite;"></i><i class="fallItem" style="left: 21%; opacity: 0.558391156466678; -webkit-animation: falling 6.6s linear 1.61902094096877s infinite;"></i><i class="fallItem" style="left: 23%; opacity: 0.930123442574404; -webkit-animation: falling 6.6s linear 6.04888782161288s infinite;"></i><i class="fallItem" style="left: 42%; opacity: 0.527825176808983; -webkit-animation: falling 6.6s linear 2.0593274619896s infinite;"></i><i class="fallItem" style="left: 25%; opacity: 0.994086314714514; -webkit-animation: falling 6.6s linear 5.22314690169878s infinite;"></i><i class="fallItem" style="left: 19%; opacity: 0.467717724922113; -webkit-animation: falling 6.6s linear 2.03059319336899s infinite;"></i><i class="fallItem" style="left: 78%; opacity: 0.614828941808082; -webkit-animation: falling 6.6s linear 4.86318991635926s infinite;"></i><i class="fallItem" style="left: 38%; opacity: 0.770695533626713; -webkit-animation: falling 6.6s linear 1.27348771621473s infinite;"></i><i class="fallItem" style="left: 60%; opacity: 0.500554316188209; -webkit-animation: falling 6.6s linear 3.55154633009806s infinite;"></i><i class="fallItem" style="left: 92%; opacity: 0.748704092996195; -webkit-animation: falling 6.6s linear 1.62663446622901s infinite;"></i><i class="fallItem" style="left: 81%; opacity: 0.397619115700945; -webkit-animation: falling 6.6s linear 3.77945834374987s infinite;"></i><i class="fallItem" style="left: 59%; opacity: 0.361376018985175; -webkit-animation: falling 6.6s linear 3.00928836804815s infinite;"></i><i class="fallItem" style="left: 46%; opacity: 0.975731623102911; -webkit-animation: falling 6.6s linear 3.54507585568354s infinite;"></i><i class="fallItem" style="left: 41%; opacity: 0.955114295706153; -webkit-animation: falling 6.6s linear 2.52502221637405s infinite;"></i><i class="fallItem" style="left: 38%; opacity: 0.340507203224115; -webkit-animation: falling 6.6s linear 3.85094824526459s infinite;"></i><i class="fallItem" style="left: 80%; opacity: 0.391407406446524; -webkit-animation: falling 6.6s linear 1.8460810163524s infinite;"></i><i class="fallItem" style="left: 72%; opacity: 0.327822838374414; -webkit-animation: falling 6.6s linear 2.81431231414899s infinite;"></i><i class="fallItem" style="left: 23%; opacity: 0.643602278549224; -webkit-animation: falling 6.6s linear 4.84522993420251s infinite;"></i><i class="fallItem" style="left: 7%; opacity: 0.334548955550417; -webkit-animation: falling 6.6s linear 6.16135315853171s infinite;"></i><i class="fallItem" style="left: 91%; opacity: 0.813421888533048; -webkit-animation: falling 6.6s linear 6.32275674329139s infinite;"></i><i class="fallItem" style="left: 67%; opacity: 0.846758282626979; -webkit-animation: falling 6.6s linear 7.308067481732s infinite;"></i><i class="fallItem" style="left: 46%; opacity: 0.471652486175299; -webkit-animation: falling 6.6s linear 6.80159006477334s infinite;"></i><i class="fallItem" style="left: 58%; opacity: 0.677947237226181; -webkit-animation: falling 6.6s linear 1.45663176826201s infinite;"></i><i class="fallItem" style="left: 95%; opacity: 0.85572188005317; -webkit-animation: falling 6.6s linear 7.38829664746299s infinite;"></i><i class="fallItem" style="left: 7%; opacity: 0.69480993389152; -webkit-animation: falling 6.6s linear 2.30659805051982s infinite;"></i><i class="fallItem" style="left: 45%; opacity: 0.467264067847282; -webkit-animation: falling 6.6s linear 2.60920863691717s infinite;"></i><i class="fallItem" style="left: 8%; opacity: 0.759217315120623; -webkit-animation: falling 6.6s linear 4.48529020207934s infinite;"></i><i class="fallItem" style="left: 91%; opacity: 0.432647768850438; -webkit-animation: falling 6.6s linear 5.82039240119048s infinite;"></i><i class="fallItem" style="left: 12%; opacity: 0.486827996908687; -webkit-animation: falling 6.6s linear 7.60733445803635s infinite;"></i><i class="fallItem" style="left: 73%; opacity: 0.739578859694302; -webkit-animation: falling 6.6s linear 7.45076451031491s infinite;"></i><i class="fallItem" style="left: 20%; opacity: 0.343137257220224; -webkit-animation: falling 6.6s linear 7.63070529070683s infinite;"></i><i class="fallItem" style="left: 15%; opacity: 0.812352103879675; -webkit-animation: falling 6.6s linear 3.70159112312831s infinite;"></i><i class="fallItem" style="left: 23%; opacity: 0.844154273229651; -webkit-animation: falling 6.6s linear 6.23020127089694s infinite;"></i><i class="fallItem" style="left: 6%; opacity: 0.739196449797601; -webkit-animation: falling 6.6s linear 5.87800812697969s infinite;"></i><i class="fallItem" style="left: 59%; opacity: 0.331201024330221; -webkit-animation: falling 6.6s linear 5.26410936540924s infinite;"></i><i class="fallItem" style="left: 93%; opacity: 0.323578688292764; -webkit-animation: falling 6.6s linear 5.37975583458319s infinite;"></i><i class="fallItem" style="left: 93%; opacity: 0.884454192896374; -webkit-animation: falling 6.6s linear 7.61023145332001s infinite;"></i><i class="fallItem" style="left: 51%; opacity: 0.527420491096564; -webkit-animation: falling 6.6s linear 5.07415245240554s infinite;"></i><i class="fallItem" style="left: 92%; opacity: 0.4320241069654; -webkit-animation: falling 6.6s linear 4.6383877354674s infinite;"></i><i class="fallItem" style="left: 63%; opacity: 0.526977054262534; -webkit-animation: falling 6.6s linear 2.2777979944367s infinite;"></i><i class="fallItem" style="left: 47%; opacity: 0.789907782780938; -webkit-animation: falling 6.6s linear 5.66454376047477s infinite;"></i><i class="fallItem" style="left: 55%; opacity: 0.883528415556066; -webkit-animation: falling 6.6s linear 5.0694975994993s infinite;"></i><i class="fallItem" style="left: 17%; opacity: 0.928970860736445; -webkit-animation: falling 6.6s linear 7.09256194694899s infinite;"></i><i class="fallItem" style="left: 35%; opacity: 0.885710510308854; -webkit-animation: falling 6.6s linear 3.83151538507082s infinite;"></i><i class="fallItem" style="left: 80%; opacity: 0.605549983424135; -webkit-animation: falling 6.6s linear 2.81780207459815s infinite;"></i><i class="fallItem" style="left: 88%; opacity: 0.359004594874568; -webkit-animation: falling 6.6s linear 4.28548545273952s infinite;"></i><i class="fallItem" style="left: 90%; opacity: 0.40481109644752; -webkit-animation: falling 6.6s linear 1.50402309233323s infinite;"></i><i class="fallItem" style="left: 46%; opacity: 0.493327775225043; -webkit-animation: falling 6.6s linear 4.94640895887278s infinite;"></i><i class="fallItem" style="left: 4%; opacity: 0.497244196175598; -webkit-animation: falling 6.6s linear 6.41143093141727s infinite;"></i><i class="fallItem" style="left: 14%; opacity: 0.787863285280764; -webkit-animation: falling 6.6s linear 3.24368275213055s infinite;"></i><i class="fallItem" style="left: 27%; opacity: 0.909356374014169; -webkit-animation: falling 6.6s linear 5.89518646150827s infinite;"></i><i class="fallItem" style="left: 12%; opacity: 0.794328030734323; -webkit-animation: falling 6.6s linear 1.01826878474094s infinite;"></i><i class="fallItem" style="left: 58%; opacity: 0.588413168257102; -webkit-animation: falling 6.6s linear 7.7535811541602s infinite;"></i><i class="fallItem" style="left: 83%; opacity: 0.428877519606613; -webkit-animation: falling 6.6s linear 2.70542309177108s infinite;"></i><i class="fallItem" style="left: 96%; opacity: 0.558598791575059; -webkit-animation: falling 6.6s linear 5.16540514561348s infinite;"></i><i class="fallItem" style="left: 30%; opacity: 0.815163617674261; -webkit-animation: falling 6.6s linear 1.25961271906272s infinite;"></i><i class="fallItem" style="left: 34%; opacity: 0.949203154724091; -webkit-animation: falling 6.6s linear 1.07198632019572s infinite;"></i><i class="fallItem" style="left: 60%; opacity: 0.302176899393089; -webkit-animation: falling 6.6s linear 6.39658046746627s infinite;"></i><i class="fallItem" style="left: 13%; opacity: 0.470376487774774; -webkit-animation: falling 6.6s linear 4.90135674295016s infinite;"></i><i class="fallItem" style="left: 71%; opacity: 0.471727029164322; -webkit-animation: falling 6.6s linear 6.95654638530687s infinite;"></i><i class="fallItem" style="left: 26%; opacity: 0.482413597870618; -webkit-animation: falling 6.6s linear 6.78949929401279s infinite;"></i><i class="fallItem" style="left: 23%; opacity: 0.497942619770765; -webkit-animation: falling 6.6s linear 7.64652351569384s infinite;"></i><i class="fallItem" style="left: 81%; opacity: 0.79462641782593; -webkit-animation: falling 6.6s linear 1.01276811514981s infinite;"></i><i class="fallItem" style="left: 69%; opacity: 0.573813239554875; -webkit-animation: falling 6.6s linear 6.90486097591929s infinite;"></i><i class="fallItem" style="left: 72%; opacity: 0.922758233896457; -webkit-animation: falling 6.6s linear 6.24189227260649s infinite;"></i><i class="fallItem" style="left: 36%; opacity: 0.965908018196933; -webkit-animation: falling 6.6s linear 1.6681079370901s infinite;"></i><i class="fallItem" style="left: 43%; opacity: 0.552417214983143; -webkit-animation: falling 6.6s linear 2.9978524860926s infinite;"></i><i class="fallItem" style="left: 73%; opacity: 0.345845301751979; -webkit-animation: falling 6.6s linear 7.42770738108084s infinite;"></i><i class="fallItem" style="left: 96%; opacity: 0.543201631773263; -webkit-animation: falling 6.6s linear 6.66810280829668s infinite;"></i><i class="fallItem" style="left: 36%; opacity: 0.418764985259622; -webkit-animation: falling 6.6s linear 3.40059636090882s infinite;"></i><i class="fallItem" style="left: 28%; opacity: 0.849328968999907; -webkit-animation: falling 6.6s linear 5.97449780860916s infinite;"></i><i class="fallItem" style="left: 5%; opacity: 0.30846216364298; -webkit-animation: falling 6.6s linear 6.90498947538436s infinite;"></i><i class="fallItem" style="left: 29%; opacity: 0.555281016486697; -webkit-animation: falling 6.6s linear 7.79889003164135s infinite;"></i><i class="fallItem" style="left: 66%; opacity: 0.5707591308048; -webkit-animation: falling 6.6s linear 1.64324732031673s infinite;"></i><i class="fallItem" style="left: 55%; opacity: 0.317079758783802; -webkit-animation: falling 6.6s linear 7.96783391735517s infinite;"></i><i class="fallItem" style="left: 93%; opacity: 0.753093718690798; -webkit-animation: falling 6.6s linear 5.82786782411858s infinite;"></i><i class="fallItem" style="left: 36%; opacity: 0.507032981398515; -webkit-animation: falling 6.6s linear 4.80566240265034s infinite;"></i><i class="fallItem" style="left: 9%; opacity: 0.593850095150992; -webkit-animation: falling 6.6s linear 6.24555777432397s infinite;"></i><i class="fallItem" style="left: 51%; opacity: 0.875462157162838; -webkit-animation: falling 6.6s linear 1.40029846527614s infinite;"></i><i class="fallItem" style="left: 74%; opacity: 0.302014433778822; -webkit-animation: falling 6.6s linear 5.39513829443604s infinite;"></i><i class="fallItem" style="left: 45%; opacity: 0.57062695317436; -webkit-animation: falling 6.6s linear 3.85858716792427s infinite;"></i><i class="fallItem" style="left: 62%; opacity: 0.499464946216904; -webkit-animation: falling 6.6s linear 7.51771160867065s infinite;"></i><i class="fallItem" style="left: 95%; opacity: 0.51938361027278; -webkit-animation: falling 6.6s linear 1.21002834755927s infinite;"></i><i class="fallItem" style="left: 88%; opacity: 0.854428484523669; -webkit-animation: falling 6.6s linear 2.09788325359114s infinite;"></i></div>
+
+<h1>雪花代码</h1>
+<h1><a href="">雪花代码</a></h1>
+
+</body>
+</html>
