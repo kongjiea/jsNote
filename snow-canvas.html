@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas 雪景</title>
+    <script type="text/javascript">
+    window.onload=function(){
+        var run=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||function(a){return setTimeout(a,16.7)};
+        !function(){var e=30,o=e/2,b=50,a=[],f=2,p=window.innerWidth,m=window.innerHeight;function n(q,g){return q+Math.random()*(g-q)}function j(){this.reset(1)}j.prototype={render:function(t){var q=this.x,w=this.y,v=this.z,s=this.r,u=this.speed;t.drawImage(d,0,0,e,e,q,w,e*this.z,e*this.z);q=q+Math.cos(s)*u;w=w+Math.sin(s)*u;if(q<-e*v||q>p||w>m){this.reset(0.3)}else{this.x=q;this.y=w}},reset:function(g){var q=n(0.1,1);this.x=n(0,p-e);this.y=q>0.7&&g!==1?-e:n(-e,m*g-e);this.speed=Math.max(0.8,f*q);this.z=q;this.r=Math.PI/180*n(135,45)}};var i=document.createElement("canvas"),d=i.cloneNode(false),l,k,h;if(!i.getContext){return}l=d.getContext("2d");k=i.getContext("2d");h=l.createRadialGradient(o,o,2,o,o,o);i.width=p;i.height=m;d.width=e;d.height=e;h.addColorStop(0,"#FFF");h.addColorStop(1,"rgba(255,255,255,0.1)");l.fillStyle=h;l.arc(o,o,o,0,Math.PI*2,true);l.fill();while(b--){a.push(new j())}function c(){k.clearRect(0,0,p,m);a.forEach(function(g){g.render(k)});run(arguments.callee)}c();window.addEventListener("resize",function(){i.width=p=window.innerWidth;i.height=m=window.innerHeight},false);i.className="snow";document.body.appendChild(i)}();
+    }
+    </script>
+</head>
+<body style="height:500px;background:#000;">
+
+</body>
+</html>
